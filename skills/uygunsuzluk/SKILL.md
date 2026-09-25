@@ -1,6 +1,7 @@
 ---
 name: uygunsuzluk
 description: ADDPARK'ın yürürlükteki kalite dokümanlarını MDR 2017/745, ISO 13485, ISO 14971 ve ilgili standartların şartlarına karşı tarar, uygunsuzluk adaylarını kanıtıyla birlikte tespit eder, bulgu siciline yazmadan önce onay ister; kalite ekibi KABUL ettikten sonra aynı skill PR13.FR02 (8D) Düzeltici Faaliyet Formu taslağını üretir. Kullanıcı "uygunsuzluk tara", "uygunsuzluk var mı", "bu belgeyi denetle", "MDR'a uygun mu", "şarta karşı kontrol et", "bulgu çıkar", "NC tara", "denetime hazır mı", "atölyeye yaz", "kabul edilenleri DÖF'e çevir", "DÖF aç", "8D formu hazırla" dediğinde MUTLAKA bu skill'i kullan. Girdi bir veya birkaç belge kodu/adıdır (PR14, MDR.FR.022, KEK.UM gibi). Yalnız ADDPARK / BTech-ADD ortamı için geçerlidir. Yayın öncesi taslak kontrolü BU SKILL DEĞİL `dokuman-denetle`'dir.
+version: 1.0
 ---
 
 # ADDPARK Uygunsuzluk Tespiti ve DÖF

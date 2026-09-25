@@ -1,6 +1,7 @@
 ---
 name: todo
 description: Kuntay'ın tek görev sistemidir — Notion'daki "Aksiyonlar" veritabanına tarihli ve aksiyon planlı görev yazar, vadesi geleni hatırlatır, "Claude Yapabilir" işaretli işleri fiilen yapar ve tamamlananları listeden düşürür. Kullanıcı "todo", "yapılacaklar", "listeye ekle", "bunu unutmayayım", "hatırlat", "ne var bugün", "açık işlerim ne", "neyim gecikti", "hallettim", "bunu bitirdim", "tamamlandı", "bu iş kapandı" gibi bir şey söylediğinde MUTLAKA bu skill'i kullan. Ayrıca bir sohbette taahhüt veya termin ortaya çıktığında ("pazartesiye kadar X yapılacak", "Y'yi arayacağım") kullanıcıya görev olarak eklemeyi öner. Görevler ASLA hafızaya, sohbete veya Microsoft To Do'ya yazılmaz — tek yer Notion Aksiyonlar veritabanıdır.
+version: 1.0
 ---
 
 # Todo — Tek Görev Sistemi

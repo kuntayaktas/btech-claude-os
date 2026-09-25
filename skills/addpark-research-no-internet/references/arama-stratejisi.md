@@ -11,7 +11,17 @@ degil on kosuludur.** Ayrinti: `kapsam-ve-kaynaklar.md` bolum 0.
 
 ### Katman 0 — Sicil (her zaman ilk)
 
-`10_Kalite/00_Yonetisim/GOV.05_EK1_Master_Dokuman_Sicili.csv`
+`10_Kalite/00_Yonetisim/01_Sicil-ve-Kayitlar/` altındaki **EK1–EK7 CSV
+dosyaları ve `GOV.05_IDX_Sicil-Haritasi.md`**
+
+- Tek dosyalı eski sicil (`GOV.05_EK1_Master_Dokuman_Sicili.csv`)
+  17.09.2026'da SUPERSEDED olarak `99_Arsiv-Catal-ve-Yedek`'e alındı —
+  **aranmaz, okunmaz.**
+- Hangi ailenin hangi EK dosyasında olduğu **IDX'ten okunur**; satır
+  yazmadan önce IDX her zaman okunur.
+- EK1 GOV·DMS·PRJ·YON·REFERANS · EK2 QMS·PR·IS·ISG·DENETİM·PRS·AR ·
+  EK3 MDR-TF·ETİKET · EK4 KVK·LGL · EK5 HR·EK · EK6 MK·ODO·URT·YAT·SAT ·
+  EK7 BLG (belgelendirme/sertifikalar)
 
 - ~250 kayıt, ayraç `;`, BOM'lu UTF-8, 12 kolon:
   `Kod · Başlık · Aile · Sahip · Revizyon · Durum · Kütüphane · Klasör · Gizlilik · İmza Katmanı · Sonraki G.G. · Not`

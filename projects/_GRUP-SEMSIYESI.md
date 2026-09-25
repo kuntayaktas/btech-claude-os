@@ -11,7 +11,8 @@
 - Gerçek, varsayım ve görüş ayrılır; belirsizlik açıkça söylenir. Onay değil doğruluk.
 
 ## Yetki kuralları (her Projede geçerli)
-- Arama, listeleme, okuma serbest. Taşıma, kopyalama, silme, yeniden adlandırma, e-posta gönderme, CRM yazma, kredi harcama: ÖNCE yazılı onay, işlem başına.
+- Arama, listeleme, okuma serbest. Taşıma, kopyalama, silme, yeniden adlandırma, e-posta gönderme, Odoo'ya yazma, kredi harcama: ÖNCE yazılı onay, işlem başına.
+- Odoo'da müşteri/lead kaydı silinmez, arşivlenir; silme yalnız kendi oluşturduğumuz test kayıtları için.
 - SharePoint'ten silme YOK; arşive aktarım kopyalamadır.
 - Belge hakkında karar vermeden önce belge açılıp okunur; arama sonucundan çıkarım yapılmaz.
 - Kurumsal kütüphaneye dosya yalnız gerçek gelen kutularından alınır.
@@ -24,4 +25,5 @@
 - **Kişisel katman:** Notion (Aksiyonlar, Kasa, Meetings), Claude hafızası. KYS kaydı değildir.
 
 ## Görev ve takip
-- Ortaya çıkan her taahhüt/termin `todo` skill'i ile Notion Aksiyonlar'a önerilir. Görev başka yere yazılmaz.
+- Şirket işleri (plan, kampanya, proje görevleri): Odoo proje/görev modülü — ana görev, alt görev, termin, açıklama.
+- Kuntay'ın kişisel takipleri ve taahhütleri: `todo` skill'i ile Notion Aksiyonlar. İkisi karıştırılmaz.

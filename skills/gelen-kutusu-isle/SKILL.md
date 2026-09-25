@@ -1,6 +1,7 @@
 ---
 name: gelen-kutusu-isle
 description: BTech-ADD SharePoint sitesindeki 99_Gelen-Kutusu kütüphanesine bırakılan dosyaları tasnif eder, doğru kütüphane ve klasörü belirler, kullanıcıdan onay aldıktan sonra kopyalar ve dağıtım kaydını tutar. Kullanıcı "gelen kutusunu işle", "gelen kutusuna dosya bıraktım", "şu dosyaları yerine koy", "bunları tasnifle", "dosyaları dağıt" gibi bir şey söylediğinde MUTLAKA bu skill'i kullan. Ayrıca kullanıcı bir dosyanın nereye gitmesi gerektiğini sorduğunda da kullan — tasnif kuralları burada tanımlıdır. Kapsam tasnif ve yerleştirmedir; doküman kodu verme, revizyon atama ve GOV.05 siciline kaydetme BU SKILL'İN İŞİ DEĞİLDİR — dokuman-yayinla'ya devredilir. Ayrıca `dokuman-yayinla` Faz A'dan gelen, kodu ve revizyonu üzerinde yazılı YAYIN ADAYI belgeleri de bu skill yerleştirir ve ardından dokuman-yayinla Faz B'ye devreder. Sadece BTech-ADD (Addpark) sitesi için geçerlidir.
+version: 2.0
 ---
 
 # Gelen Kutusu İşleme

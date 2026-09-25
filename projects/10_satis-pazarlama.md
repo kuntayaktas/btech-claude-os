@@ -24,14 +24,20 @@ Beş şirketin satış ve pazarlama sistemi; pilot ve varsayılan bağlam **BTec
 - Meta'da yalnız lead hedefli kampanya; CPL 250 ₺ üstü set durdurulur.
 - E-posta şirket adına, kişisel imza yok, olay tetikli, kişi başı ayda en fazla 2. Apollo (soğuk, btechgroup.co) ve Mailjet (izinli, news subdomain) ayrı hatlardır; karışmaz.
 - İçerik %70 açık / %30 kapılı; 2027 makaleleri Kuntay Aktaş imzalı, kişisel post şirket postundan önce.
-- Pazarlama planı üç slot: S1 sabit %50, S2 dönemsel %25, S3 veri güdümlü %25 (boş bırakılır). Aksiyon sicili ayda en fazla 5.
+- "Henüz olgunlaşmamış" fırsatlar kayıp sayılmaz; nurture havuzunda lead olarak kalır.
+- Plan kuralları (slotlar, bütçe, takvim) asıl belgelerden okunur; bu talimat onları tekrar etmez.
 - Sosyal görsel: 1080×1350 ana kanvas, 6 arketip, BTech ana tema mavi+sarı+siyah; şablon kaynağı Canva brand templates.
 
 ## Standart çıktılar
 1. **Haftalık sinyal raporu** (Pazartesi): Odoo pipeline hareketi + site niyet sinyalleri + reklam sapmaları → en fazla 5 aksiyon önerisi.
 2. **Aylık kapanış:** ham veri ↔ kontrollü Excel mutabakatı, sapma listesi, K-numaralı karar önerileri.
 3. **Pipeline açığı tespiti** → o ürün için hedef şirket listesi + Apollo kişi önerisi + kampanya taslağı; yürütme onaya bağlı.
+4. Çıkan işler Odoo proje/görev olarak önerilir; onayla yazılır.
 Her rapor: kaynak, kapsam filtresi ve veri tarihi tabloda yazılır.
 
 ## Proje bilgisine eklenecek belgeler
-GRP.MK.SYS.01 · GRP.MK.VRI.01 · BTE.MK.PLN.01 · BTE.MK.09 Rev01 · MKT.TRM.01 (Addpark terminoloji) · MK.01 Rev02 marka kılavuzu (özet)
+Asıl belgeler üç tanedir (21.09.2026 kararı), Excel ve sunumlarıyla birlikte; diğer her belge taslak/besleme sayılır ve Projeye eklenmez:
+1. BTE.MK.09 — Pazarlama Durum Raporu (durum tespiti)
+2. BTE.SAT.PLN.01 — Satış Hedefleri
+3. BTE.MK.PLN.01 — 2027 Pazarlama Stratejisi
+Kural: yalnız kurumsal kütüphanedeki (BTECH-HUB/04_PazarlamaMerkez) kontrollü nüsha eklenir. Teams sohbet ekleri ve kişisel OneDrive nüshaları eklenmez. Belge revize olunca Projedeki eski nüsha silinip yenisi eklenir.

@@ -62,7 +62,7 @@ gerektiği kullanıcıya bildirilir.
 | Aynı klasördeki R02 xlsx (referans dosyası) | **YAZILMAZ** |
 | `/mnt/user-data/outputs/` | Serbest |
 | `10_Kalite` — `97_On-Calisma-Kontrolsuz` DIŞINDAKİ tüm alt klasörler | **YASAK** |
-| `GOV.05_EK1_Master_Dokuman_Sicili.csv` | **YASAK** |
+| `GOV.05_EK1…EK7` sicil CSV'leri ve `GOV.05_IDX` | **YASAK** |
 | `DMS.PRS.01_EK1_Dagitim_Kaydi.csv` | **YASAK** |
 | Vaka sicili (MDR.FR.VS) | **YASAK** |
 | Diğer tüm kütüphaneler | **YASAK** |

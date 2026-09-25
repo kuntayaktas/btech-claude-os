@@ -1,6 +1,7 @@
 ---
 name: kasa-giris-cikis
 description: Kuntay'ın kasa defteridir — Notion "Kasa" veritabanına para giriş/çıkışını işler, güncel bakiyeyi raporlar. Kullanıcı "/kasa-giris-cikis", "kasa", "kasaya para geldi", "kasadan ödedim", "X'ten Y TL geldi", "Z'ye ödeme yaptım", "kasa durumu ne", "bakiye ne", "bu ay ne girdi çıktı", "kasa raporu", "kasa defteri" gibi bir şey söylediğinde MUTLAKA bu skill'i kullan. Tek mesajda birden fazla hareket olabilir; hepsi ayrı satır olarak işlenir. Döviz hareketinde işlem günü kuru web'den alınır ve kayda yazılır. Kayıtlar YALNIZ Notion Kasa veritabanına yazılır; hafızaya, sohbete veya başka yere yazılmaz. Sadece Kuntay Aktaş / BTech Grup ortamı için geçerlidir.
+version: 1.0
 ---
 
 # Kasa Giriş-Çıkış

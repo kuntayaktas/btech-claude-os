@@ -1,6 +1,7 @@
 ---
 name: derin-tara
 description: BTech Grup'un TÜM bilgi kaynaklarını tek seferde tarar — bütün posta kutuları, SharePoint kütüphaneleri, OneDrive, Notion, Google Drive, Zoom ve Fireflies toplantı kayıtları. Kullanıcı "derin tara", "her yeri tara", "tüm sistemleri tara", "komple ara", "nerede olursa olsun bul", "elimizde ne var" dediğinde MUTLAKA bu skill'i kullan. Yalnız posta yeterliyse `mail-tara`, yalnız ADDPARK SharePoint yeterliyse `addpark-research-no-internet` kullanılır — derin tarama pahalıdır, gerçekten geniş sorularda çalıştırılır. Sadece BTech Grup ortamı için geçerlidir.
+version: 2.0
 ---
 
 # Derin Tara — Tüm Kaynaklarda Arama
@@ -22,7 +23,7 @@ Bu skill pahalıdır. Dar bir soru için çalıştırılmaz.
 Sıra tesadüf değil; her adım sonrakinin arama terimlerini keskinleştirir.
 
 **1 · Kontrollü belgeler** — `addpark-research-no-internet` kurallarıyla
-BTech-ADD SharePoint. Önce siciller (`GOV.05` EK1–EK6), sonra klasörler.
+BTech-ADD SharePoint. Önce siciller (`GOV.05` IDX + EK1–EK7), sonra klasörler.
 Buradan çıkan kodlar, firma adları ve tarihler sonraki adımların arama
 terimi olur.
 

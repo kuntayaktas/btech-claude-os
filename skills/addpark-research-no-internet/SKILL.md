@@ -1,6 +1,7 @@
 ---
 name: addpark-research-no-internet
 description: ADDPARK kurumsal bilgi tabanında (yalnızca BTech-ADD SharePoint sitesi) kapalı devre araştırma yapar; internete hiç çıkmaz, başka SharePoint sitesine veya OneDrive'a girmez, genel bilgiyle boşluk doldurmaz, her cümlesini belgeye referanslar. Sicilde bulamazsa tüm kütüphaneleri klasör klasör komple tarar. Kullanıcı "addpark research", "addpark araştır", "internete çıkma", "sistemden bul", "kendi verilerimizde ara", "bizde var mı", "hangi belgede yazıyor", "sharepointte ara", "kalite sisteminde ne diyor", "komple tara" dediğinde MUTLAKA bu skill'i kullan. Bir belgenin varlığı, revizyonu, konumu veya içeriği sorulduğunda; iki belge çelişiyor mu denildiğinde; ya da başka bir Addpark skill'i (dokuman-denetle, dokuman-yayinla, gelen-kutusu-isle, mdr-case-create) mevcut duruma bakmak zorunda kaldığında bu kuralları uygula. ADDPARK araştırmalarında VARSAYILAN skill budur — kullanıcı açıkça dış kaynak istemedikçe addpark-research-with-internet yerine bunu kullan.
+version: 1.0
 ---
 
 # ADDPARK Kapalı Devre Araştırma (İnternetsiz)
@@ -61,8 +62,11 @@ Kapsam dışı bırakılan konumların tam listesi: `references/kapsam-ve-kaynak
 
 1. **Soruyu ayrıştır.** Ne soruluyor: belge var mı · içerik ne diyor ·
    revizyon/konum ne · iki belge çelişiyor mu · bir konuda elde ne var.
-2. **Sicilden başla.** `10_Kalite/00_Yonetisim/GOV.05_EK1_Master_Dokuman_Sicili.csv`
-   — 250+ kayıt, `;` ayraçlı, 12 kolon.
+2. **Sicilden başla.** `10_Kalite/00_Yonetisim/01_Sicil-ve-Kayitlar/` —
+   önce `GOV.05_IDX_Sicil-Haritasi.md`, sonra ilgili `GOV.05_EK{n}` CSV
+   (EK1–EK7, `;` ayraçlı, 12 kolon). Tek dosyalı eski sicil
+   (`GOV.05_EK1_Master_Dokuman_Sicili.csv`) 17.09.2026'da arşive alındı,
+   kullanılmaz.
 3. **Sicili ASLA tek başına doğru kabul etme.** Sicil geride kalabilir
    (PR ve KEK aileleri gerçekte Rev07 iken sicilde 00 yazıyordu) ve
    hayalet kayıt taşıyabilir (PR29/30/32 "YAYIN" görünürken belge yoktu).

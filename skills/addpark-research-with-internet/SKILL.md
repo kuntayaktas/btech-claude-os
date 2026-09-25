@@ -1,6 +1,7 @@
 ---
 name: addpark-research-with-internet
 description: ADDPARK kurumsal bilgi tabanında (BTech-ADD SharePoint sitesi) araştırma yapar ve gerektiğinde interneti de kullanır; iç kaynak ile dış kaynağı asla karıştırmaz, her ikisini de ayrı etiketle ve künyeyle referanslar, uydurma yapmaz. Sicilde bulamazsa önce tüm kütüphaneleri klasör klasör komple tarar, ancak ondan sonra internete çıkar. Kullanıcı "addpark research with internet", "internetle araştır", "dışarıya da bak", "internetten de kontrol et", "mevzuatı da tara", "standart ne diyor", "piyasada durum ne", "rakipler ne yapıyor" gibi AÇIKÇA dış kaynak istediğinde bu skill'i kullan. Kullanıcı dış kaynak istemiyorsa veya sadece "addpark research" diyorsa addpark-research-no-internet skill'ini kullan — varsayılan odur. Ayrıca ADDPARK belgesini bir dış referansla (MDR, ISO 13485, AS9100D, harmonize standart, tedarikçi teknik verisi) karşılaştırmak gerektiğinde bu skill'i kullan. Sadece ADDPARK / BTech-ADD ortamı için geçerlidir.
+version: 1.0
 ---
 
 # ADDPARK Araştırma (İnternet Erişimli)

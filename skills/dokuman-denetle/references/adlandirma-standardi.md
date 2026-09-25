@@ -9,6 +9,9 @@ Kod taşıyan kontrollü belgeler kodla başlar:
     {KOD}_{ADDPARK}_{Konu}_{Rev}_{Durum}.uzantı
 
 Desen 1 örnekleri:
+> Aşağıdaki üç örnek LEGACY adlandırmadır (`_FINAL` eki artık kullanılmaz,
+> bkz. SKILL.md kararı 08.08.2026); yeni belgede kopyalanmaz.
+
 - `OEK_ADDPARK_Organizasyon_El_Kitabi_Rev08_FINAL.pdf`
 - `PR04_ADDPARK_Personel_Kaynagi_Idaresi_Rev07_FINAL.pdf`
 - `MDR_FR_024_ADDPARK_Kalite_Anlasmasi_Rev01_FINAL.docx`

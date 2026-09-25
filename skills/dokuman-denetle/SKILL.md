@@ -1,6 +1,7 @@
 ---
 name: dokuman-denetle
 description: Bir Addpark dokümanını yayın öncesi denetler - biçim, adlandırma, kalite sistemi tutarlılığı, mevzuat uyumu (MDR 2017/745, ISO 13485, KVKK, İş Kanunu, TTK) ve mevcut kontrollü belgelerle çelişki kontrolü yapar, önem derecesine göre düzeltme önerisi sunar, onay alınca düzeltilmiş sürümü üretir. Kullanıcı "bu dökümanı kontrol et", "uygun mu bak", "denetle", "gözden geçir", "yayına hazır mı", "mevzuata uygun mu", "bunu düzelt" gibi bir şey söylediğinde MUTLAKA bu skill'i kullan. Yeni hazırlanan veya revize edilen her kontrollü doküman için yayın öncesi çalıştırılmalıdır. Denetimden geçen doküman dokuman-yayinla skill'ine devredilir.
+version: 5.0
 ---
 
 # Doküman Denetleme
